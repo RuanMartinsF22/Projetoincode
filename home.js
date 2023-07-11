@@ -17,7 +17,7 @@ let currentIndex = 0;
 const totalImages = carrosselImages.length;
 
 // Exibe a imagem inicial
-carrosselImages[currentIndex].classList.add("ativo");
+carrosselImages[currentIndex].classList.add("active");
 
 // Adicione o evento de clique para a seta esquerda
 setaEsquerda.addEventListener("click", function() {
@@ -56,7 +56,7 @@ clearInterval(carrosselInterval);
 // Adicione o evento de clique para a seta esquerda
 setaEsquerda.addEventListener("click", function() {
 stopcarrossel();
-carrosselImages[currentIndex].classList.remove("ativo");
+carrosselImages[currentIndex].classList.remove("active");
 currentIndex = (currentIndex - 1 + totalImages) % totalImages;
 carrosselImages[currentIndex].classList.add("active");
 startcarrossel();
