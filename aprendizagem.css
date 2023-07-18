@@ -65,6 +65,7 @@ html, body {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    align-items: center;
 
 }
 
@@ -89,20 +90,26 @@ html, body {
 }
 
 .Apresentacao {
-    margin-top: 20px;
     font-weight: 900;
     margin-right: 30px;
     display: block;
     width: 65%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 20px auto;
 }
 
 
 .saibamais1 {
     margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
 }
 
 .saibamais2 {
-    margin-top: 45px;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
 } 
 
 .rodapé {
@@ -136,11 +143,17 @@ html, body {
     align-items: center;
     gap: 20px;
     margin-top: 40px;
+    margin-right: 40px;
 }
 
 .logo2 {
     height: 150px;
     width: 150px;
+    margin-left: 60px;
+}
+
+.StartGaming {
+    margin-left: 60px;
 }
 
 /* Estilize a barra de rolagem */
